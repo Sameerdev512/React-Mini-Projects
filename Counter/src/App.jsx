@@ -12,6 +12,7 @@ const handleDecrement=()=>
   }
   return (
     <>
+    <center><h1>Welcome to Counter</h1></center>
       <div className="container">
         <div className="button" onClick={handleDecrement}>-</div>
         <div className="counter">Counter is {count}</div>
